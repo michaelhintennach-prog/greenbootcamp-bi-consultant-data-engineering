@@ -1,4 +1,3 @@
-```markdown
 # Combining DataFrames with Pandas
 
 This module introduces the different ways to combine, join, merge, and concatenate DataFrames in Pandas.  
@@ -109,5 +108,4 @@ This module teaches you how to:
 
 It provides essential skills for real‑world data engineering and data science workflows.
 ```
-
 
