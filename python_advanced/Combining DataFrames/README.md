@@ -1,3 +1,4 @@
+```markdown
 # Combining DataFrames with Pandas
 
 This module introduces the different ways to combine, join, merge, and concatenate DataFrames in Pandas.  
@@ -49,4 +50,64 @@ You explore horizontal concatenation:
 
 ```python
 pd.concat([quality_dummies, wine_df], axis=1)
+```
+
+This stacks columns side‑by‑side.
+
+### 4. Combining Red and White Wine Data
+You compute:
+
+- Mean fixed acidity per quality level for red wines  
+- Mean fixed acidity per quality level for white wines  
+
+Then you combine these summary DataFrames using:
+
+#### `merge()`
+```python
+pd.merge(red_df, white_df, on='quality', suffixes=[' red', ' white'])
+```
+
+#### `concat()`
+```python
+pd.concat([red_df, white_df['fixed acidity']], axis='columns', join='inner')
+```
+
+#### `join()`
+```python
+red_df.join(white_df, lsuffix='red', rsuffix='white')
+```
+
+All three approaches produce similar results but differ in defaults and flexibility.
+
+## Exercises & Insights
+
+### Exercise 1: Student Data
+You:
+- Concatenate two student DataFrames vertically  
+- Merge with a third DataFrame containing marks  
+- Observe missing names/subjects for students only present in the marks table
+
+**Insight:**  
+Outer joins preserve all information, even when some fields are missing.
+
+### Exercise 2: Weather Data
+You:
+- Merge mean and max temperature data using an outer join  
+- Sort months in calendar order  
+- Fill missing max temperatures with the average of known values
+
+This demonstrates how merging preserves information and how missing values can be imputed.
+
+## Summary
+This module teaches you how to:
+- Choose the right method (`merge`, `join`, `concat`) for combining DataFrames  
+- Work with categorical variables using dummy encoding  
+- Combine datasets with different shapes and keys  
+- Apply SQL‑style joins in Pandas  
+- Handle missing data after merging  
+- Build clean, structured DataFrames from multiple sources  
+
+It provides essential skills for real‑world data engineering and data science workflows.
+```
+
 
