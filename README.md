@@ -111,5 +111,73 @@ Practical exercises: data cleaning, transformations, mathematical operations.
 
 ---
 
+# 🐍 Python Advanced  
+The *Python Advanced* module builds on the fundamentals from Python Basics and introduces powerful tools for data manipulation, analysis, and visualization. These skills are essential for real‑world data engineering and BI workflows, especially when working with structured datasets, performing exploratory data analysis (EDA), and preparing data for pipelines.
+
+---
+
+## 1. Introduction to Pandas  
+Overview of the Pandas library, DataFrames, Series, indexing, and basic operations.  
+**Relevance:** Pandas is one of the most important tools for data manipulation and cleaning in Python.
+
+---
+
+## 2. Practice Pandas Functionalities  
+Hands‑on exercises covering filtering, selecting columns, grouping, aggregations, sorting, and handling missing values.  
+**Relevance:** These operations form the backbone of data preparation in ETL processes.
+
+---
+
+## 3. Introduction to Pandas Visualizations  
+Basic plotting using Pandas’ built‑in visualization features (line plots, bar charts, histograms).  
+**Relevance:** Quick visual insights help validate data quality and identify patterns early.
+
+---
+
+## 4. Practice Pandas Functionalities and Visualizations  
+Combined exercises using transformations and visualizations to explore datasets.  
+**Relevance:** Strengthens the ability to move seamlessly between data manipulation and interpretation.
+
+---
+
+## 5. Seaborn Data Visualization  
+Introduction to Seaborn for more advanced and aesthetically pleasing plots (distribution plots, categorical plots, regression plots).  
+**Relevance:** Seaborn is widely used in BI and analytics for clear and informative visualizations.
+
+---
+
+## 6. More Pandas Practice and EDA  
+Extended exercises focusing on exploratory data analysis: descriptive statistics, correlations, outlier detection, and data profiling.  
+**Relevance:** EDA is a critical step before building pipelines, dashboards, or machine‑learning models.
+
+---
+
+## 7. Combining DataFrames  
+Techniques for merging, joining, and concatenating DataFrames.  
+**Relevance:** Combining datasets is essential when integrating data from multiple sources.
+
+---
+
+## 8. Introduction to NumPy  
+Overview of NumPy arrays, vectorized operations, and basic mathematical functions.  
+**Relevance:** NumPy provides the computational foundation for Pandas and is key for efficient numerical processing.
+
+---
+
+## 9. Practice NumPy Functionalities  
+Exercises covering array creation, reshaping, slicing, broadcasting, and mathematical operations.  
+**Relevance:** Understanding NumPy helps optimize performance and handle large datasets efficiently.
+
+---
+
+## 10. Dealing with Date and Time Data  
+Working with `datetime`, Pandas datetime functionality, parsing timestamps, extracting components, and resampling.  
+**Relevance:** Time‑based data is extremely common in BI and data engineering (logs, events, transactions).
+
+
+
+
+
+
 ## 📁 Repository Structure (current state)
 
